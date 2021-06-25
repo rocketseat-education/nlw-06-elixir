@@ -1,5 +1,5 @@
 <div align="center">
-  <img align="center" src="./.github/assets/wabanex-logo.png" width="300px"/>
+  <img align="center" src="./assets/wabanex-logo.png" width="300px"/>
 </div>
 &nbsp;
 <p align="center">
@@ -30,7 +30,7 @@ Gerencie e acompanhe seus treinos na academia
 &nbsp;&nbsp;&nbsp;
 
 <div align="center">
-  <img align="center" src="./.github/assets/schema.png" width="450px"/>
+  <img align="center" src="./assets/schema.png" width="450px"/>
 </div>
 
 &nbsp;&nbsp;&nbsp;
