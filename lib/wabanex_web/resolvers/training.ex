@@ -1,3 +1,5 @@
 defmodule WabanexWeb.Resolvers.Training do
-  def create(%{input: params}, _context), do: Wabanex.Trainings.Create.call(params)
+  alias Wabanex.Trainings
+
+  def create(%{input: params}, _context), do: Trainings.Create.call(params)
 end

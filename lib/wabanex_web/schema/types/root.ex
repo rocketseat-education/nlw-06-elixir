@@ -2,16 +2,13 @@ defmodule WabanexWeb.Schema.Types.Root do
   use Absinthe.Schema.Notation
 
   alias Crudry.Middlewares.TranslateErrors
-
-  alias WabanexWeb.Resolvers
+  alias WabanexWeb.Resolvers.User, as: UserResolver
+  alias WabanexWeb.Resolvers.Training, as: TrainingResolver
   alias WabanexWeb.Schema.Types
 
-  alias Resolvers.User, as: UserResolver
-  alias Resolvers.Training, as: TrainingResolver
-
-  import_types Types.Custom.UUID4
   import_types Types.User
   import_types Types.Training
+  import_types Types.Custom.UUID4
 
   object :root_query do
     field :get_user, type: :user do
